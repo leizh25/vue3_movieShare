@@ -1,0 +1,24 @@
+html.dark {
+  #header {
+    background-image: radial-gradient(transparent 2px, #000 2px);
+    background-size: 4px 4px;
+    backdrop-filter: saturate(50%) blur(6px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    .center {
+      li {
+        span {
+          background-color: #000000a4;
+        }
+      }
+      li.active {
+        color: #0f0;
+        text-shadow: 0 0 10px rgba(0, 255, 0, 0.9);
+      }
+    }
+    .right {
+      .input {
+        background-color: #000000a4;
+      }
+    }
+  }
+}
